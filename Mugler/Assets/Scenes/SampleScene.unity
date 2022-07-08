@@ -250,15 +250,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.188
+      value: 35.418
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7029
+      value: 2.5739
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4134
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1956,7 +1956,7 @@ Transform:
   m_LocalPosition: {x: -14, y: 0.55, z: -9.39}
   m_LocalScale: {x: 0.3928003, y: 0.39600235, z: 0.013964439}
   m_Children:
-  - {fileID: 1975717709}
+  - {fileID: 1758349215}
   m_Father: {fileID: 1384167649}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -37.919003, z: 0}
@@ -4496,7 +4496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442956231}
   m_LocalRotation: {x: -0, y: 0.5254965, z: -0, w: 0.85079575}
-  m_LocalPosition: {x: -21.03, y: 0.79, z: -5.37}
+  m_LocalPosition: {x: -20.87, y: 0.79, z: -5.27}
   m_LocalScale: {x: 0.36810607, y: 0.37289461, z: 0.35848257}
   m_Children:
   - {fileID: 1543112632}
@@ -4866,81 +4866,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472583580}
-  m_CullTransparentMesh: 0
---- !u!1 &506985337
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 506985338}
-  - component: {fileID: 506985340}
-  - component: {fileID: 506985339}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &506985338
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506985337}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2013657714}
-  m_Father: {fileID: 1975717709}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &506985339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506985337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &506985340
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506985337}
   m_CullTransparentMesh: 0
 --- !u!1 &507661195
 GameObject:
@@ -7612,15 +7537,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.8366
+      value: 8.4713
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.09
+      value: 2.5739
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.811
+      value: -38.996
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8240,7 +8165,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772999453}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -0.6}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1959425104}
@@ -8248,7 +8173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.4, y: 7.3}
+  m_AnchoredPosition: {x: -4, y: 21}
   m_SizeDelta: {x: 420.3614, y: 188.17448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &772999455
@@ -8270,15 +8195,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. PALAIS GARNIER(PARIS-FRANCE), 1986. Dauphine de Jerphanion wears Veuve
-    de l'Air by Mugler.\r\n2. VOLGOGRAD COUNTRYSIDE(RUSSIA), 1986. Angela Wilde wears
-    Azzedine Alaia.\r\n3.MUS\xC9E D'ART MODERNE DE LA VILLE DE PARIS(PARIS-FRANCE),
-    1979. Susan Moncur wears Metropolis by Mugler.\r\n4. CABAZON DINOSAURS (CALIFORNIA-USA),
-    1991. Dauphine de Jerphanion wears Flingstone little black dress by Mugler.\r 
-    \nNadelbach and llai wear UrbanSummer shirt by Mugler.\r"
+  m_text: "1. <b> PALAIS GARNIER(PARIS-FRANCE), 1986. </b>Dauphine de Jerphanion
+    wears Veuve de l'Air by Mugler.\r\n\n2. <b> VOLGOGRAD COUNTRYSIDE(RUSSIA), 1986.
+    </b>Angela Wilde wears Azzedine Alaia.\r\n\n3. <b>MUS\xC9E D'ART MODERNE DE LA
+    VILLE DE PARIS(PARIS-FRANCE), 1979. </b> Susan Moncur wears Metropolis by Mugler.\r\n\n4.
+    <b> CABAZON DINOSAURS (CALIFORNIA-USA), 1991. </b>Dauphine de Jerphanion wears
+    Flingstone little black dress by Mugler.\r  \nNadelbach and llai wear UrbanSummer
+    shirt by Mugler.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8302,14 +8228,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -8338,7 +8264,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 8.458481, w: -53.452354}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8459,7 +8385,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792179924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1504499083}
@@ -8468,8 +8394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2, y: 3.1}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0, y: -6.3}
+  m_SizeDelta: {x: 0, y: 14.814285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792179926
 MonoBehaviour:
@@ -9059,7 +8985,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847429757}
   m_LocalRotation: {x: 0.00023953288, y: 0.9997848, z: -0.020722691, w: -0.00097599614}
-  m_LocalPosition: {x: 0, y: 0, z: 0.03}
+  m_LocalPosition: {x: 0, y: 0, z: 0.044}
   m_LocalScale: {x: 0.014327212, y: 0.015291988, z: 0.014835615}
   m_Children:
   - {fileID: 792179925}
@@ -9068,8 +8994,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 2.375, y: 245.961, z: 0.030000001}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.03, y: -7.38}
-  m_SizeDelta: {x: 415.20264, y: 208.76755}
+  m_AnchoredPosition: {x: -0.078, y: -7.226}
+  m_SizeDelta: {x: 430.4475, y: 242.15591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847429759
 MonoBehaviour:
@@ -9313,6 +9239,144 @@ RectTransform:
   m_AnchoredPosition: {x: 35.4, y: 47}
   m_SizeDelta: {x: 67.86274, y: 66.572266}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &887172424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887172425}
+  - component: {fileID: 887172427}
+  - component: {fileID: 887172426}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &887172425
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887172424}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 960435518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1, y: -4}
+  m_SizeDelta: {x: 420.3614, y: 242.0869}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &887172426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887172424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "1. <b> WHITE SANDS(NEW MEXICO-USA), 1995. </b> Angel campaign. Jerry Hall
+    wears Sir\xE8ne Nacr\xE9e Couture by Mugler.\r\n\n2. <b> DISKO BAY (GREENLAND),
+    1987. </b> Claude Heidemeyer wears Vautour Velours by Mugler.\r\n\n3. <b> RIVER
+    NIGER (MALI), 1987. </b> Katoucha Niane wears Croco Style by Mugler.\r\n\n4.
+    <b> ERG MEHEDJEBAT(ALGERIAN SAHARA), 1985. </b> Iman Abdumajid wears Seins d'Or
+    Massif by Mugler.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 50
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 8.458481, w: 17.731392}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &887172427
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887172424}
+  m_CullTransparentMesh: 0
 --- !u!1 &888946795
 GameObject:
   m_ObjectHideFlags: 0
@@ -9435,15 +9499,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6661abf6399dcb84a945c9a7aecc6051, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.296
+      value: 41.511
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6661abf6399dcb84a945c9a7aecc6051, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.09
+      value: 2.5739
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6661abf6399dcb84a945c9a7aecc6051, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -38.071
+      value: -37.439
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6661abf6399dcb84a945c9a7aecc6051, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10260,6 +10324,81 @@ RectTransform:
   m_AnchoredPosition: {x: 22.8, y: 94.1}
   m_SizeDelta: {x: 78.581856, y: 91.252235}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &960435517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 960435518}
+  - component: {fileID: 960435520}
+  - component: {fileID: 960435519}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &960435518
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960435517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 887172425}
+  m_Father: {fileID: 1758349215}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.3999939, y: -0.30000305}
+  m_SizeDelta: {x: 0, y: -2.1726685}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &960435519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960435517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &960435520
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960435517}
+  m_CullTransparentMesh: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -10697,8 +10836,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 2.375, y: 245.961, z: 0.030000001}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.09, y: -7.22}
-  m_SizeDelta: {x: 438.41956, y: 214.22784}
+  m_AnchoredPosition: {x: 0.09, y: -7.14}
+  m_SizeDelta: {x: 438.41956, y: 251.57437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &993887501
 MonoBehaviour:
@@ -10789,15 +10928,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 61f7b81b40a02394f9d6b0ada0344e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35.991
+      value: 35.22
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 61f7b81b40a02394f9d6b0ada0344e51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7029
+      value: 2.5739
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 61f7b81b40a02394f9d6b0ada0344e51, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.3819
+      value: 1.7231
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 61f7b81b40a02394f9d6b0ada0344e51, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11047,12 +11186,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: "After Mugler left fashion in 2002, he moved to New York and concentrated
     on costume design. He designed costumes for musical comedies, concerts, operas
-    and the theatre such as Zumanity the show with Cirque du Soleil as well as for
-    his close celebrity friends.\r\n In 2009, Mugler worked as artistic advisor to
-    singer Beyonc\xE9. He created the costumes for her \"I Am... World Tour\".\r\nCardi
+    and the theatre such as Zumanity, the show with Cirque du Soleil, as well as
+    for his close celebrity friends.\r\n In 2009, Mugler worked as artistic advisor
+    to singer Beyonc\xE9. He created the costumes for her \"I Am... World Tour\".\r\nCardi
     B is a big fan of Mugler and showed up in red carpets with Thierry Mugler archive
     several times.  2019, Cardi broke the internet by showing up late to the Grammys
-    in Thierry Mugler s/S 1995 \"The Venus Dress\". \r\nIn 2019, he made the exception
+    in Thierry Mugler s/s 1995 \"The Venus Dress\". \r\nIn 2019, he made the exception
     to design under his name \"House of Mugler\" for the Met Gala in 2019 and for
     Kim Kardashian. Getting his inspiration from Sophia Loren in the film Boy on
     a Dolphin, Mugler envisioned a wet California girl; hence the creation of the
@@ -11119,7 +11258,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 5.783945, w: -14.459312}
+  m_margin: {x: 0, y: 0, z: 5.783945, w: -4.0025406}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12708,7 +12847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.2954
+      value: 3.008
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12716,11 +12855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 75.66
+      value: 72.345
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.976896
+      value: 0.952924
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12728,7 +12867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.21371546
+      value: -0.3032093
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.z
@@ -12740,7 +12879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -24.68
+      value: -35.301003
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13176,8 +13315,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179605264}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -3.1}
+  m_LocalRotation: {x: -0, y: 1, z: 9.3132246e-10, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 264588068}
@@ -13185,7 +13324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5, y: -4.9}
+  m_AnchoredPosition: {x: 0.5, y: -10.8}
   m_SizeDelta: {x: 388.85614, y: 157.25014}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179605266
@@ -13207,10 +13346,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. Paris (France), 2009 Alien campaign Felicity Gilbert wears Coquille
-    d\u2019Or by Mugler.\r\n2. LA G\xC9ODE (PARIS- FRANCE) DESIGNED BY ADRIEN FAINSILBER
-    AND G\xC9RARD CHAMAYOU, 1988. Betty Lago wears Plan\xE8te des Saintes by.\r\n3.
-    WHITE SANDS (NEW MEXICO-USA),1992. L\xE9a wears Too Funky Robot outfit by Mugler.\r\n\n"
+  m_text: "1. <b>Paris (France), 2009. </b> Alien campaign Felicity Gilbert wears
+    Coquille d\u2019Or by Mugler.\r\n\n2. <b> LA G\xC9ODE (PARIS- FRANCE) DESIGNED
+    BY ADRIEN FAINSILBER AND G\xC9RARD CHAMAYOU, 1988. </b> Betty Lago wears Plan\xE8te
+    des Saintes by.\r\n\n3. <b> WHITE SANDS (NEW MEXICO-USA),1992. </b>L\xE9a wears
+    Too Funky Robot outfit by Mugler.\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13237,13 +13377,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -13273,7 +13413,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 40.802708}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -13728,7 +13868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264601987}
   m_LocalRotation: {x: 4.539809e-15, y: 0.94115794, z: -5.764803e-15, w: 0.33796707}
-  m_LocalPosition: {x: -5.7, y: 0.46, z: -2.73}
+  m_LocalPosition: {x: -5.8, y: 0.46, z: -2.56}
   m_LocalScale: {x: 0.44467753, y: 0.42908102, z: 0.4322758}
   m_Children:
   - {fileID: 847429758}
@@ -15370,7 +15510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.852
+      value: 23.064
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15378,7 +15518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.984
+      value: 43.964
       objectReference: {fileID: 0}
     - target: {fileID: 4428235643550906, guid: 2a1c6d9e55ea9f642b2d4c9246901866, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16305,8 +16445,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504499082}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -1.3}
+  m_LocalRotation: {x: 2.9103825e-10, y: 1, z: 0.000000008438816, w: -0.00000014912798}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 792179925}
@@ -16314,8 +16454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5, y: 4.8}
-  m_SizeDelta: {x: 390.11945, y: 175.9934}
+  m_AnchoredPosition: {x: 5.2, y: 30.1}
+  m_SizeDelta: {x: 409.5888, y: 175.9934}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504499084
 MonoBehaviour:
@@ -16336,15 +16476,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. VOLGOGRAD(RUSSIA), 1986.Stepanek and Angela Wilde wear Bl\xE9s d'Or
-    by Mugler.\r\n2. PALAZZO DELLA CIVILT\xC0. EUR DISTRICT(ROME-ITALY), 1981. Susan
-    Moncur wears Fourreau Sir\xE8ne Dal/ by Mugler.\r\n3. LOFT,RUE MANIN(PARIS-FRANCE),
-    1996. Olga wears Amazone Laqu\xE9e by Mugler.\r\n4. TLALPAN CHAPEL (MEXICO CITY-MEXICO)
-    DESIGNED BY ARCHITECT LUIS BARRAG\xC1N, 1985. Anna Bayle,Daniel Nadelbach and
-    llai wear UrbanSummer shirt by Mugler.\r"
+  m_text: "1. <b> VOLGOGRAD (RUSSIA), 1986. </b> Stepanek and Angela Wilde wear Bl\xE9s
+    d'Or by Mugler.\r\n\n2. <b>PALAZZO DELLA CIVILT\xC0, EUR DISTRICT (ROME-ITALY),
+    1981.</b> Susan Moncur wears Fourreau Sir\xE8ne Dal/ by Mugler.\r\n\n3. <b> LOFT,
+    RUE MANIN (PARIS-FRANCE), 1996. </b> Olga wears Amazone Laqu\xE9e by Mugler.\r\n\n4.
+    <b> TLALPAN CHAPEL (MEXICO CITY-MEXICO), DESIGNED BY ARCHITECT LUIS BARRAG\xC1N,
+    1985. </b> Anna Bayle, Daniel Nadelbach and llai wear UrbanSummer shirt by Mugler.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16374,8 +16514,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -16404,7 +16544,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -57.207382}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -18378,6 +18518,105 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b38d87e1a7e875e4dbdf753b5bcf3457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1758349214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758349215}
+  - component: {fileID: 1758349218}
+  - component: {fileID: 1758349217}
+  - component: {fileID: 1758349216}
+  m_Layer: 0
+  m_Name: Info17 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1758349215
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758349214}
+  m_LocalRotation: {x: -0.020719824, y: 0.007720856, z: -0.00041978149, w: -0.9997554}
+  m_LocalPosition: {x: 0, y: 0, z: -4.2}
+  m_LocalScale: {x: 0.016219562, y: 0.016597683, z: 0.43381953}
+  m_Children:
+  - {fileID: 960435518}
+  m_Father: {fileID: 197451544}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.375, y: 245.961, z: 0.030000001}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.1, y: -7.92}
+  m_SizeDelta: {x: 438.41956, y: 262.70737}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1758349216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758349214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1758349217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758349214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1758349218
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758349214}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1778319410
 GameObject:
   m_ObjectHideFlags: 0
@@ -19473,12 +19712,12 @@ GameObject:
   - component: {fileID: 1946554595}
   - component: {fileID: 1946554594}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: InfoAboutKim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1946554594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19967,7 +20206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963283168}
   m_LocalRotation: {x: -0, y: 0.5269135, z: -0, w: 0.8499189}
-  m_LocalPosition: {x: -19.3199, y: 0.7300001, z: -8.90936}
+  m_LocalPosition: {x: -19.15, y: 0.7300001, z: -8.8}
   m_LocalScale: {x: 0.38006395, y: 0.38501695, z: 0.37014085}
   m_Children:
   - {fileID: 628152717}
@@ -20107,105 +20346,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969765640}
   m_CullTransparentMesh: 0
---- !u!1 &1975717708
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1975717709}
-  - component: {fileID: 1975717712}
-  - component: {fileID: 1975717711}
-  - component: {fileID: 1975717710}
-  m_Layer: 0
-  m_Name: Info16
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1975717709
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975717708}
-  m_LocalRotation: {x: -0.0013799696, y: -0.11682735, z: -0.008784634, w: 0.99311244}
-  m_LocalPosition: {x: 0, y: 0, z: -4.3000183}
-  m_LocalScale: {x: 0.015733507, y: 0.017402386, z: 0.36041093}
-  m_Children:
-  - {fileID: 506985338}
-  m_Father: {fileID: 197451544}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.275, y: -13.416, z: -0.98100007}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.019996766, y: -7.84}
-  m_SizeDelta: {x: 435.7317, y: 216.19385}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1975717710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975717708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1975717711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975717708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &1975717712
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975717708}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &1976832595
 GameObject:
   m_ObjectHideFlags: 0
@@ -20519,143 +20659,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &2013657713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2013657714}
-  - component: {fileID: 2013657716}
-  - component: {fileID: 2013657715}
-  m_Layer: 0
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2013657714
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013657713}
-  m_LocalRotation: {x: -0.000088349996, y: 0.99999774, z: -0.0000010952352, w: 0.0021306234}
-  m_LocalPosition: {x: 0, y: 0, z: 1.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 506985338}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 179.75601, z: -0.010000001}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: 23}
-  m_SizeDelta: {x: 395.7874, y: 151.08449}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2013657715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013657713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "1. WHITE SANDS(NEW MEXICO-USA), 1995 Angel campaign. Jerry Hall wears
-    Sir\xE8ne Nacr\xE9e Couture by Mugler.\r\n2. DISKO BAY (GREENLAND), 1987.Claude
-    Heidemeyer wears Vautour Velours by Mugler.\r\n3. RIVER NIGER (MALI), 1987. Katoucha
-    Niane wears Croco Style by Mugler.\r\n4. ERG MEHEDJEBAT(ALGERIAN SAHARA), 1985.
-    Iman Abdumajid wears Seins d'Or Massif by Mugler.\r\n"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 50
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2013657716
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013657713}
-  m_CullTransparentMesh: 0
 --- !u!1 &2020966537
 GameObject:
   m_ObjectHideFlags: 0
@@ -20942,7 +20945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089227784}
   m_LocalRotation: {x: 1.324064e-15, y: -0.33311605, z: -2.4206379e-14, w: 0.9428859}
-  m_LocalPosition: {x: -9.73, y: 0.49, z: -6.03}
+  m_LocalPosition: {x: -9.78, y: 0.49, z: -5.95}
   m_LocalScale: {x: 0.42574605, y: 0.43796623, z: 0.0034828281}
   m_Children:
   - {fileID: 993887500}
