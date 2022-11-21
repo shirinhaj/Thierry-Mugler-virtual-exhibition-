@@ -7,4 +7,4 @@ Laurea Magistrale in Fashion studies, campus di Rimini, A.A. 2021/22
 Data Science & Immersive Technologies for Fashion E-Commerce
 
 ## Project description: 
-This project is dedicated to the legendary fashion designer Manfred Thierry Mugler who left us earlier this year like a shooting star, in all his glory. Thierry Mugler was more than a fashion designer and his vision of fashion was more than simple clothes. He was an accomplished artist, photographer, and iconoclast and this virtual exhibition is dedicated to him.
+This project is dedicated to the legendary fashion designer Manfred Thierry Mugler who left us earlier this year like a shooting star, in all his glory. Thierry Mugler was more than a fashion designer and his vision of fashion was more than simple clothes. He was an accomplished artist, photographer, and iconoclast, and this virtual exhibition is dedicated to him.
