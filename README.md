@@ -1,4 +1,4 @@
-# Mugler Project
+# Thierry Mugler virtual exhibition 
 ## Realized by: 
 Meizi Yu and Ting Su
 ## Degree course: 
