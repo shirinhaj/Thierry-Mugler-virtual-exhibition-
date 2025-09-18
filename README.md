@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Mugler1.PNG" alt="Thierry Mugler virtual exhibition" width="70%">
+  <img src="Mugler1.PNG" alt="Thierry Mugler virtual exhibition" width="100%">
 </p>
 
 
