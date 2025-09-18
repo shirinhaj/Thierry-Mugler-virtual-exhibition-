@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Mugler1.PNG" alt="Thierry Mugler virtual exhibition" width="70%">
+</p>
+
+
 # Thierry Mugler virtual exhibition 
 ## Realized by: 
 Meizi Yu and Ting Su
